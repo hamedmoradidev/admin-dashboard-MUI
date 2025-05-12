@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 📊 Admin Dashboard – Next.js + MUI
 
-First, run the development server:
+A modern and responsive admin dashboard built with **Next.js**, **Material UI**, **Supabase**, and **TypeScript**. This template provides a flexible layout, data grid tables, charts, and more — ready to be extended into a real-world admin panel.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🌐 **Live Demo:** https://admin-dashboard-mui-zeta.vercel.app/
+
+![Project Screenshot](https://github.com/user-attachments/assets/15cec9ea-e967-4848-9b47-ffd990c97bf1)
+
+
+## 🛠 Features
+
+- ⚡ **Next.js 15** – Server-side rendering and routing
+- 🎨 **MUI 7** – Material Design components
+- 💅 **Emotion** – CSS-in-JS styling with `@emotion/react` and `@emotion/styled`
+- 📊 **Recharts & MUI Charts** – Data visualization with both Recharts and `@mui/x-charts`
+- 🧾 **MUI Data Grid** – Advanced data tables using `@mui/x-data-grid`
+- 🗂 **Iconify** – Scalable icon library
+- ☁️ **Supabase** – Backend-as-a-service for authentication and database
+- 📱 **Responsive** – Fully adaptable layout for all screen sizes
+
+## 📦 Dependencies
+
+Here are the key libraries used in this project:
+
+| Library                    | Description                                  |
+|---------------------------|----------------------------------------------|
+| `@mui/material`           | Core UI components                          |
+| `@mui/icons-material`     | MUI icon library                            |
+| `@mui/x-data-grid`        | Advanced data tables                        |
+| `@mui/x-charts`           | Chart components from MUI Labs              |
+| `@emotion/react`          | Emotion CSS-in-JS engine                    |
+| `@emotion/styled`         | Styled component API                        |
+| `@iconify/react`          | Scalable icon system                        |
+| `recharts`                | Composable charting library                 |
+| `@supabase/supabase-js`   | Supabase client for auth and database       |
+| `next`, `react`, `react-dom` | Core Next.js and React libraries         |
+
+
+## 📁 Project Structure
+
+```
+admin-dashboard-MUI/
+├── app/                 # Pages and routing (Next.js App Router)
+├── components/          # Reusable UI components
+├── public/              # Static assets like images and icons
+├── styles/              # Global styles if needed
+├── tsconfig.json        # TypeScript configuration
+├── package.json         # Project config and dependencies
+└── README.md            # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/hamedmoradidev/admin-dashboard-MUI.git
+cd admin-dashboard-MUI
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 🧪 Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev       # Start development server
+npm run build     # Build for production
+npm run start     # Start production server
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source and licensed under the **MIT License**.
